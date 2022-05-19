@@ -3,10 +3,11 @@
 
 	ref: https://arxiv.org/pdf/1801.02610.pdf
 	
+	import tensorflow as tf
 	from keras.utils import to_categorical
 '''
 
-import tensorflow as tf
+import tensorflor.compat.v1 as tf
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
