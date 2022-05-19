@@ -7,7 +7,7 @@
 	from keras.utils import to_categorical
 '''
 
-import tensorflorw.compat.v1 as tf
+import tensorflow.compat.v1 as tf
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
