@@ -2,6 +2,8 @@
 	Target model definitions that adverserial examples are attempting to 'fool'
 
 	ref: https://arxiv.org/pdf/1801.02610.pdf
+	
+	from keras.utils import to_categorical
 '''
 
 import tensorflow as tf
@@ -9,7 +11,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.gridspec as gridspec
 import os
-from keras.utils import to_categorical
+from tensorflow.keras.utils import to_categorical
 from keras.datasets import mnist
 
 
